@@ -1,0 +1,16 @@
+>>> %Run RSPi_LED_BLINK.py
+Traceback (most recent call last):
+  File "/home/pi/Documents/RSPi_LED_BLINK.py", line 1, in <module>
+    import RPi.GPIO as GPIO           # import RPi.GPIO python module
+  File "/usr/local/lib/python3.7/dist-packages/RPi/GPIO/__init__.py", line 23, in <module>
+    from RPi._GPIO import *
+RuntimeError: This module can only be run on a Raspberry Pi!
+
+
+>>> %Run RSPi_LED_ON_OFF.py
+Traceback (most recent call last):
+  File "/home/pi/Documents/RSPi_LED_ON_OFF.py", line 1, in <module>
+    import RPi.GPIO as GPIO           # import RPi.GPIO python module
+  File "/usr/local/lib/python3.7/dist-packages/RPi/GPIO/__init__.py", line 23, in <module>
+    from RPi._GPIO import *
+RuntimeError: This module can only be run on a Raspberry Pi!
